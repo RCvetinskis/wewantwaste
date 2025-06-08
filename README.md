@@ -1,18 +1,26 @@
+## ✅ Recommended
 
-## Recommended
-1. Latest node -v
-2. Latest react -v
+1. Latest **Node.js** version (`node -v`)
+2. Latest **React** version (`react -v`)
 
-## Getting Started
-1. Create a .env file and add: `NEXT_PUBLIC_WASTE_API = https://app.wewantwaste.co.uk/api`
-2. Run the development server:
+---
 
-```bash
-npm install
-npm run dev
-```
+## 🚀 Getting Started
 
-3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/RCvetinskis/wewantwaste.git
+   cd wewantwaste
+
+2. Create a .env file in the root directory and add the following:
+`NEXT_PUBLIC_WASTE_API=https://app.wewantwaste.co.uk/api
+`
+3. Install dependencies and run the development server:
+`npm install --force
+npm run dev`
+
+4. Open http://localhost:3000 in your browser to view the app.
 
 
 
@@ -23,10 +31,10 @@ npm run dev
 4. Axios
 
 ## Layout
-1. `app/layout.tsx` is mainly for providers and metadata
-2. `app/(home)/layout.tsx` render children('Page') and dynamicly render sidebar or StatusTracker
-3. `actions/api/we-want-waste-requests.ts` GET request with Waste type
-4. `app/(home)/page.tsx` Fetch data from request and render `WasteList` component.
+1. `app/layout.tsx` Defines global layout including metadata and providers.
+2. `app/(home)/layout.tsx` Renders child pages and conditionally includes the sidebar or StatusTracker.
+3. `actions/api/we-want-waste-requests.ts` Contains GET requests to fetch data.
+4. `app/(home)/page.tsx` Fetches data using the above action and renders the WasteList component.
 
 ## UI
 ### Light
