@@ -41,7 +41,13 @@ const WasteItem = ({ item, selected, onSelect }: Props) => {
           selected && "ring-2 ring-primary ring-offset-2 shadow-primary/40"
         )}
       >
-        <Image src={subabaseImageUrl} alt={"Waste Image"} fill priority />
+        <Image
+          src={subabaseImageUrl}
+          alt={"Waste Image"}
+          fill
+          priority
+          objectFit="cover"
+        />
 
         {!item.allowed_on_road && (
           <div className="absolute bottom-8 right-1">

@@ -36,9 +36,7 @@ const StatusTracker = ({
               "flex items-center space-x-4 cursor-pointer select-none",
               "transition-colors duration-300",
               mobile ? "flex-col space-x-0 space-y-2" : "flex-row",
-              isActive
-                ? "text-primary dark:text-yellow-500"
-                : "text-gray-500",
+              isActive ? "text-primary dark:text-yellow-500" : "text-gray-500",
               !isActive && "cursor-not-allowed hover:text-destructive"
             )}
           >
