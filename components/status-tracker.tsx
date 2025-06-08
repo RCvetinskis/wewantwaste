@@ -36,7 +36,9 @@ const StatusTracker = ({
               "flex items-center space-x-4 cursor-pointer select-none",
               "transition-colors duration-300",
               mobile ? "flex-col space-x-0 space-y-2" : "flex-row",
-              isActive ? "text-primary" : "text-gray-500 hover:text-primary",
+              isActive
+                ? "text-primary dark:text-yellow-500"
+                : "text-gray-500",
               !isActive && "cursor-not-allowed hover:text-destructive"
             )}
           >
@@ -44,8 +46,8 @@ const StatusTracker = ({
               className={cn(
                 "flex items-center justify-center w-8 h-8 rounded-full border-2",
                 isActive
-                  ? "bg-primary border-primary text-secondary"
-                  : "border-gray-500 bg-white text-gray-500"
+                  ? "bg-primary border-primary dark:bg-yellow-500 text-secondary"
+                  : "border-gray-300 bg-white text-gray-300"
               )}
             >
               <Icon size={18} strokeWidth={2} />
