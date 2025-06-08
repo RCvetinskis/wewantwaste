@@ -23,8 +23,9 @@ export const getWastes = async () => {
       "/skips/by-location?postcode=NR32&area=Lowestoft"
     );
 
-    return response.data;
+    return response.data || [];
   } catch (error) {
+    // Probably do something if error
     console.log(error);
   }
 };
