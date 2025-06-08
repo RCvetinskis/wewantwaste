@@ -30,8 +30,9 @@ npm run dev
 
 ## UI
 ### Light
-![image](https://github.com/user-attachments/assets/2de71d06-e4a0-4c1b-adef-a047c86e8389)
-![image](https://github.com/user-attachments/assets/ef116b8d-0b43-4e8e-81c6-7117ba256867)
+![image](https://github.com/user-attachments/assets/5c84a45f-5d34-4487-9e12-3a90e2dfb67b)
+![image](https://github.com/user-attachments/assets/5ce51b0b-348e-4966-bb2d-a164dd369b91)
+
 
 ### Dark
 ![image](https://github.com/user-attachments/assets/975eb848-b660-417a-a2a8-c154c5d68d04)
