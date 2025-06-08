@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Recommended
+1. Latest node -v
+2. Latest react -v
 
 ## Getting Started
-
-First, run the development server:
+1. Create a .env file and add: `NEXT_PUBLIC_WASTE_API = https://app.wewantwaste.co.uk/api`
+2. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Stack (Packages)
+1. NextJs(Easy to setup, SSR, simple routing system)
+2. Tailwind(Reusable, popular,modern, works with shadcn)
+3. Shadcn (Modern React Components) [https://ui.shadcn.com](https://ui.shadcn.com)
+4. Axios
 
-To learn more about Next.js, take a look at the following resources:
+## Layout
+1. `app/layout.tsx` is mainly for providers and metadata
+2. `app/(home)/layout.tsx` render children('Page') and dynamicly render sidebar or StatusTracker
+3. `actions/api/we-want-waste-requests.ts` GET request with Waste type
+4. `app/(home)/page.tsx` Fetch data from request and render `WasteList` component.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## UI
+### Light
+![image](https://github.com/user-attachments/assets/2de71d06-e4a0-4c1b-adef-a047c86e8389)
+![image](https://github.com/user-attachments/assets/ef116b8d-0b43-4e8e-81c6-7117ba256867)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Dark
+![image](https://github.com/user-attachments/assets/42133b22-495f-410a-8e05-dc8ca0182dbc)
+![image](https://github.com/user-attachments/assets/30ab10bc-7814-4782-ac1b-7ae528684fdf)
 
-## Deploy on Vercel
+### gif
+![waste_example](https://github.com/user-attachments/assets/c5ef12a2-9276-43fa-a839-df04dce09e0e)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
