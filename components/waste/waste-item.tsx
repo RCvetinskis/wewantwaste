@@ -43,12 +43,14 @@ const WasteItem = ({ item, selected, onSelect }: Props) => {
       >
         <Image src={subabaseImageUrl} alt={"Waste Image"} fill priority />
 
-        <div className="absolute bottom-8 right-1">
-          <Badge variant="warning">
-            <TriangleAlert />
-            <span>Not Allowed On The Road</span>
-          </Badge>
-        </div>
+        {!item.allowed_on_road && (
+          <div className="absolute bottom-8 right-1">
+            <Badge variant="warning">
+              <TriangleAlert />
+              <span>Not Allowed On The Road</span>
+            </Badge>
+          </div>
+        )}
 
         <div className="absolute w-full h-full top-0 left-0 transition duration-500 group-hover/card:bg-black opacity-10"></div>
         {selected && (
