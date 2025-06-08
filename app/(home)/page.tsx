@@ -1,9 +1,7 @@
 import { getWastes, IWaste } from "@/actions/api/we-want-waste-requests";
 import WasteList from "@/components/waste/waste-list";
 
-type Props = {};
-
-const Page = async (props: Props) => {
+const Page = async () => {
   const data = (await getWastes()) as IWaste[];
   return (
     <div>
