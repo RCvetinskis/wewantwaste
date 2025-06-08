@@ -34,11 +34,13 @@ npm run dev
 ![image](https://github.com/user-attachments/assets/ef116b8d-0b43-4e8e-81c6-7117ba256867)
 
 ### Dark
-![image](https://github.com/user-attachments/assets/42133b22-495f-410a-8e05-dc8ca0182dbc)
-![image](https://github.com/user-attachments/assets/30ab10bc-7814-4782-ac1b-7ae528684fdf)
+![image](https://github.com/user-attachments/assets/975eb848-b660-417a-a2a8-c154c5d68d04)
+![image](https://github.com/user-attachments/assets/9f4722a1-08f4-41f8-86c5-4f4b1eb71eb7)
+
 
 ### gif
-![waste_example](https://github.com/user-attachments/assets/c5ef12a2-9276-43fa-a839-df04dce09e0e)
+![waste_ex](https://github.com/user-attachments/assets/32712efd-4098-498f-a3b5-200b6d1181bd)
+
 
 
 
