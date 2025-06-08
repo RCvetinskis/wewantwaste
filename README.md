@@ -33,7 +33,7 @@ npm run dev`
 ## Layout
 1. `app/layout.tsx` Defines global layout including metadata and providers.
 2. `app/(home)/layout.tsx` Renders child pages and conditionally includes the sidebar or StatusTracker.
-3. `actions/api/we-want-waste-requests.ts` Contains GET requests to fetch data based.
+3. `actions/api/we-want-waste-requests.ts` Contains GET requests to fetch data.
 4. `app/(home)/page.tsx` Fetches data using the above action and renders the WasteList component.
 
 ## UI
